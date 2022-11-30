@@ -19,7 +19,7 @@
 	
 	#container {
     font-family: 'Libre Barcode 128', cursive;
-    font-size: 10vmin;
+    font-size: 15vmin;
     text-align: center;
     color: rgba(255,255,255,0.85);
     width: 100vw;
@@ -33,10 +33,25 @@
     overflow: hidden;
 }	
 	
-	#sorry-not-sorry {
+	#barcode {
 		margin-top: 50%;
 		transform: translate(0%, -50%)
 	}
+	
+	
+		#edition {
+	color: rgba(255,255,255,0.3);
+	font-size: 3vmin;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	position: absolute;
+    top:90vh;
+	bottom:0;
+    left:0;
+	right:0;
+	margin: auto;
+	}
+	
 	
 </style>
 		
@@ -48,8 +63,11 @@
 <body>
 
 
-<div id="container"><p id="sorry-not-sorry">Arboreus</p>
+<div id="container"><p id="barcode">Arboreus</p>
 		</div>
 
+	
+	<div id="edition"><script>document.write( new Date().getFullYear() );</script></div>
+	
 </body>
 </html>
