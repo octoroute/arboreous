@@ -1,0 +1,96 @@
+<!doctype html>
+<html><head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DWB0QQL25V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DWB0QQL25V');
+</script>
+
+	
+<meta charset="utf-8">
+<title>Arboreous</title>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!-- icon in the highest resolution we need it for -->
+<link rel="icon" sizes="192x192" href="Icons/FavIcon192x192.png">
+
+<!-- reuse same icon for Safari -->
+<link rel="apple-touch-icon" href="Icons/FavIcon192x192-iOS.png">
+	
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#4d251c">
+
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap" rel="stylesheet">
+	
+<style>
+	
+	
+	body {
+  	background: rgba(255,255,255,1);
+}
+
+	
+	#container {
+    font-family: 'Libre Barcode 128', cursive;
+    font-size: 37vmin;
+    text-align: center;
+    color: rgba(44,16,9,0.96);
+    width: 100vw;
+    height: 100vw;/* 16/9 = 1.778 */
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    left: 1px;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}	
+	
+	
+	#barcode {
+	margin-top: 50%;
+	transform: translate(0%, -50%)
+	}
+	
+	
+	#edition {
+	color: rgba(44,16,9,0.35);
+	font-size: 4vmin;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	position: absolute;
+    top:90vh;
+	bottom:0;
+    left:0;
+	right:0;
+	margin: auto;
+	}
+	
+	
+</style>
+		
+</head>
+
+
+	
+
+<body>
+
+
+<div id="container"><p id="barcode">Arboreus</p>
+		</div>
+
+	
+	<div id="edition"><script>document.write( new Date().getFullYear() );</script></div>
+	
+</body>
+</html>
